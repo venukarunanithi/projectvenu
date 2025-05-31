@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
-const API='http://localhost:3000' ;
+const API='https://project11-3ll8.onrender.com' ;
 
 
 const Todos = () => {
