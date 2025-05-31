@@ -8,7 +8,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const res = await axios.post('https://kongu2025.onrender.com/user/login', { username, password })
+            const res = await axios.post('https://project11-1-x7sk.onrender.com/user/login', { username, password })
             setMessage(res.data.message)
         } catch (err) {
             setMessage('Login failed')
