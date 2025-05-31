@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;  
+    /* to display the content horizontally */
+    justify-content: space-around; 
+    /* to display the space btw contents */
+    background-color:aqua;
+
+}
+
+.element{
+    list-style: none;  // to remove bullets begor any menu
+    font-size:xx-large; 
+}
